@@ -32,16 +32,21 @@ MCNuts needs a website with which it can better manage its products so this webs
 
 :heavy_check_mark: Menu Page
 <p align="center">
-  <img src="./photos/pizza-menu-page.png" width="700" title="menu">
+  <img src="https://user-images.githubusercontent.com/74753713/147305194-6ed4aeaa-ef5b-4b7d-9281-d7b21ecaeb2a.png" width="700" title="menu">
 </p>
 :heavy_check_mark: Peanuts Page
 <p align="center">
-  <img src="./photos/pizza-page.png" width="700" title="menu">
+  <img src="https://user-images.githubusercontent.com/74753713/147305197-40660a49-bbfd-499e-af1f-6857da0c76d7.png" width="700" title="menu">
 </p>
 :heavy_check_mark: Form
 <p align="center">
-  <img src="./photos/pizza-form-page.png" width="700" title="menu">
+  <img src="https://user-images.githubusercontent.com/74753713/147305200-c8c6bc09-558d-411d-b7de-51d9e3bcaf6b.png" width="700" title="menu">
 </p>
+
+
+
+
+
 
 ## :rocket: Technologies ##
 
