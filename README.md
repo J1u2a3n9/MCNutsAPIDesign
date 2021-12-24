@@ -58,10 +58,10 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 
 ```bash
 # Clone this project
-$ git clone https://github.com/DussanFreire/pizza-page
+$ git clone https://github.com/J1u2a3n9/MCNutsAPIDesign.git
 
 # Run the project
-Using liver server
+Use live server
 ```
 
 
