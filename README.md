@@ -65,7 +65,7 @@ The following tools were used in this project:
 
 ## 🧠 Requirements ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) installed.
 
 ## ✅ Starting ##
 
