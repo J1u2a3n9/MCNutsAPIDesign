@@ -1,0 +1,892 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'open sans';
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: auto;
+}
+
+.titulo {
+    color: #bf2727;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+header {
+    width: 100%;
+    height: 600px;
+    background: #d51010;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(0, 91%, 40%, 0.459), hsla(0, 50%, 64%, 0.664)), url(../img/portada.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(0, 91%, 40%, 0.459), hsla(0, 50%, 64%, 0.664)), url(../img/portada.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color:#fff  !important;
+    font-weight: 600  !important;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 25px
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+header .texto-cabecera{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.texto-cabecera h1{
+    font-size: 90px;
+    color:#fff;
+}
+
+.texto-cabecera h2{
+    font-size: 80px;
+    font-weight: 300;
+    color:#fff;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* About us */
+
+main .sobre-nosotros{
+    padding: 30px 0 60px 0;
+}
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-sobre-nosotros{
+    width: 80%;
+}
+
+.sobre-nosotros .contenido-textos{
+    width: 80%;
+}
+
+.contenido-textos h3{
+    margin-bottom: 15px;
+}
+
+.contenido-textos h3 span{
+    background: #ed1111;
+    color: rgb(230, 222, 222);
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(157, 18, 18, 0.5);
+    margin-right: 10px;
+}
+
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+/* Galeria */
+
+
+.contenedor-nuestros-productos{
+    background: #f2f2f2;
+}
+
+.galeria-manis{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-sabor{
+    width: 25%;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+.imagen-sabor > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hover-indicador{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: rgba(126, 10, 10, 0.7);
+    transition: transform .1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hover-indicador img{
+    width: 50px;
+}
+
+.hover-indicador p{
+    color: #fff;
+}
+
+.imagen-sabor:hover .hover-indicador{
+    transform: scale(1);
+}
+
+/* Clients */
+
+.tarjetas{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tarjetas .tarjeta{
+    background: #e64848;
+    display: flex;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(161, 19, 19, 0.6);
+}
+
+.tarjetas .tarjeta img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid rgb(145, 9, 9);
+    border-radius: 70%;
+    display: block;
+}
+
+.tarjetas .tarjeta > .contenido-texto-tarjeta{
+    width: 70%;
+    color: #fff;
+}
+
+.tarjetas .tarjeta > .contenido-texto-tarjeta p{
+    font-weight: 700;
+    padding-top: 5px;
+}
+
+/*  Our team */
+
+.about-services{
+    background: #f2f2f2;
+    padding-bottom: 30px;
+}
+
+
+.contenido-redes{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servicio-redes{
+    width: 75%;
+    text-align: center;
+}
+
+.servicio-redes img{
+    width: 20%;
+    margin:center;
+    
+}
+
+
+
+/* footer */
+
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.contenido-footer{
+    text-align: center;
+}
+
+.contenido-footer h4{
+    color: #fff;
+    border-bottom: 3px solid #b81a1a;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.contenido-footer p{
+    color: #ccc;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:900px){
+    header{
+        background-position: center;
+    }
+
+    .contenedor-sobre-nosotros{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sobre-nosotros .contenido-textos{
+        width: 90%;
+    }
+
+    .imagen-sobre-nosotros{
+        width: 90%;
+    }
+
+    /* Galeria */
+
+    .imagen-sabor{
+        width: 100%;
+    }
+
+    /* Clientes */
+
+    .tarjetas{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tarjetas .tarjeta{
+        width: 90%;
+    }
+
+    .tarjetas .tarjeta:first-child{
+        margin-bottom: 30px;
+    }
+
+    /* servicios */
+
+    .contenido-redes{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .servicio-redes{
+        width: 100%;
+        text-align: center;
+    }
+
+    .servicio-redes:nth-child(1), .servicio-redes:nth-child(2){
+        margin-bottom: 60px;
+    }
+
+    .servicio-redes img{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:500px){
+    nav{
+        text-align: center;
+        padding: 30px 0 0 0;
+    }
+
+    nav > a{
+        margin-right: 5px;
+    }
+
+    .texto-cabecera h1{
+        font-size: 35px;
+    }
+
+    .texto-cabecera h2{
+        font-size: 20px;
+    }
+
+    /* ABOUT US */
+
+    .imagen-sobre-nosotros{
+        margin-bottom: 60px;
+        width: 99%;
+    }
+
+    .sobre-nosotros .contenido-textos{
+        width: 95%;
+    }
+
+    /* Galeria */
+
+    .imagen-sabor{
+        width: 95%;
+    }
+
+    /* Clients */
+
+    .tarjetas .tarjeta{
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tarjetas .tarjeta img{
+        width: 90px;
+        height: 90px;
+    }
+
+    /* Footer */
+
+    .contenedor-footer{
+        flex-direction: column;
+        border: none;
+    }
+
+    .contenido-footer{
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .contenido-footer h4{
+        border: none;
+    }
+
+    .contenido-footer p{
+        color: #ccc;
+        border-bottom: 1px solid #f2f2f2;
+        padding-bottom: 20px;
+    }
+
+    .titulo-final{
+        font-size: 20px;
+    }
+}

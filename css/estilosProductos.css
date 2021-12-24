@@ -1,0 +1,2161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'open sans';
+    font-size:16px;
+}
+
+header 
+{
+    width:100%;
+    height:1300px;
+    background-image:url(/img/header-page2.jpg) ;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position:relative;
+    overflow:hidden;
+    color:#fff;
+    text-align: center;
+}
+
+header .textos
+{
+    margin-top:152px;
+}
+
+
+header .titulo
+{
+    font-size: 85px;
+}
+header .subtitulo
+{
+    font-size:42px;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color:#fff  !important;
+    font-weight: 600  !important;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 25px
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+.orientacionabajo
+{
+    z-index: 10;
+    position:absolute;
+    bottom:0;
+    left:0;
+    border-width: 0 0 35vh 100vw;
+    border-style: solid;
+    border-color:transparent transparent rgb(70, 1, 1) transparent;
+}
+
+
+.contenedor
+{
+    width:90%;
+    max-width:1000px;
+    margin:auto;
+    overflow: hidden;
+    padding: 52px 0 ;
+}
+
+.textos .boton
+{
+    display: inline-block;
+    padding: 6px;
+    width: 128px;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgba(126, 128, 10, 0.884);
+    font-size: 19px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+}
+
+.contenedor-sabor1
+{
+    height:900px;
+    
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-top:130px;
+}
+
+.contenedor-sabor1 .sabor
+{
+    text-align:center;
+    font-size: 56px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+
+.imagen-picante{
+    margin:0%;
+    width: 20%;
+    position: center;
+    float: center;
+
+}
+
+.contenedor-sabor1 .frase
+{
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 24px;
+    color:rgb(255, 255, 255);
+    overflow: auto;
+}
+
+.contenedor-sabor1 .descripcion
+{
+    margin-bottom: 13px;
+    font-weight: 300;
+    font-size: 25x;
+    text-align: justify;
+    line-height:50px;
+    color:rgb(255, 255, 255);
+    overflow: auto;
+}
+
+.contenedor-sabor1 .boton 
+{
+    display: inline-block;
+    padding: 6px;
+    width: 128px;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(151, 15, 15);
+    font-size: 19px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+    
+}
+
+.contenedor-sabor2
+{
+    height:900px;
+    
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-top:130px;
+}
+
+.contenedor-sabor2 .boton 
+{
+    display: inline-block;
+    padding: 6px;
+    width: 128px;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(8, 4, 4);
+    font-size: 19px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+}
+.contenedor-sabor2  .sabor
+{
+    text-align:center;
+    font-size: 56px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+
+.contenedor-sabor2 .frase
+{
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 24px;
+    color:rgb(255, 255, 255);
+    overflow: auto;
+}
+
+.contenedor-sabor2  .descripcion
+{
+    margin-bottom: 13px;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: justify;
+    line-height:100px;
+    color:rgb(255, 255, 255);
+    overflow: auto;
+}
+.contenedor-sabor3
+{
+    height:900px;
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-top:130px;
+}
+
+.contenedor-sabor3 .boton 
+{
+    display: inline-block;
+    padding: 6px;
+    width: 128px;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(230, 198, 21);
+    font-size: 19px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+}
+.contenedor-sabor3  .sabor
+{
+    text-align:center;
+    font-size: 56px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+
+.contenedor-sabor3 .frase
+{
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 24px;
+    color:rgb(255, 255, 255);
+    overflow: auto;
+}
+
+.contenedor-sabor3  .descripcion
+{
+    margin-bottom: 13px;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: justify;
+    line-height:100px;
+    color:rgb(255, 255, 255);
+    overflow: auto;
+}
+
+
+.contenedor-sabor4
+{
+    height:900px;
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-top:130px;
+}
+
+.contenedor-sabor4 .boton 
+{
+    display: inline-block;
+    padding: 6px;
+    width: 128px;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(26, 15, 177);
+    font-size: 19px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+}
+.contenedor-sabor4  .sabor
+{
+    text-align:center;
+    font-size: 56px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+
+.contenedor-sabor4 .frase
+{
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 24px;
+    color:rgb(255, 255, 255);
+    overflow: auto;
+}
+
+.contenedor-sabor4  .descripcion
+{
+    margin-bottom: 13px;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: justify;
+    line-height:100px;
+    color:rgb(255, 255, 255);
+    overflow: auto;
+}
+
+
+
+/**/
+
+
+.contenedor-sabor0
+{
+    height:900px;
+    background-image:url('/img/default.jpg');
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-top:130px;
+}
+
+.contenedor-sabor0 .boton 
+{
+    display: inline-block;
+    padding: 6px;
+    width: 128px;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+}
+.contenedor-sabor0  .sabor
+{
+    text-align:center;
+    font-size: 56px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+
+.contenedor-sabor0 .frase
+{
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 24px;
+    color:rgb(255, 255, 255);
+    overflow: auto;
+}
+
+.contenedor-sabor0  .descripcion
+{
+    margin-bottom: 13px;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: justify;
+    line-height:100px;
+    color:rgb(255, 255, 255);
+    overflow: auto;
+}
+
+
+
+
+/*n*/
+
+.contenedor-saborn
+{
+    height:900px;
+    background-image:url('/img/default.jpg');
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-top:130px;
+}
+
+.contenedor-saborn .boton 
+{
+    display: inline-block;
+    padding: 6px;
+    width: 128px;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+}
+.contenedor-saborn  .sabor
+{
+    text-align:center;
+    font-size: 56px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+
+.contenedor-saborn .frase
+{
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 24px;
+    color:rgb(255, 255, 255);
+    overflow: auto;
+}
+
+.contenedor-saborn  .descripcion
+{
+    margin-bottom: 13px;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: justify;
+    line-height:100px;
+    color:rgb(255, 255, 255);
+    overflow: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
+
+
+
+
+
+
+
+
+
+
+
+/**/
+
+
+.contenedor-imagenes
+{
+    width:135%;
+    height:500px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.imagenes
+{
+    width:20%;
+    height:500px;
+    overflow: hidden;
+    position:relative;
+}
+
+.imagenes img 
+{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+
+.Tarjetas
+{
+    width:100%;
+    height:900;
+    margin:auto;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    background-color:rgb(225, 226, 141);
+}
+.tarjeta
+{
+    margin:10px 0;
+    width:40%;
+    height:400px;
+    text-align: center;
+    padding:20px;
+    box-shadow: 0px 0px 4px rgb(208, 104, 8);
+    background:rgb(204, 137, 11)
+}
+
+
+.Tarjetas img 
+{
+    width:140px;
+    height:140px;
+    object-fit:cover;
+    border-radius: 50%;
+}
+
+.Tarjetas h4
+{
+    color:#fff;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.Tarjetas p 
+{
+    color:#fff;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.contenedor-nuestros-beneficios
+{
+    height:1050px;
+    background-color:rgb(176, 199, 139);
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+.contenedor-nuestros-beneficios h2 
+{
+    color:#fff;
+    font-size: 55px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+footer {
+    background: #2c3e50;
+    height: auto;
+}
+
+.titulo-footer,
+.subtitulo-footer {
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 56px;
+}
+
+.subtitulo-footer {
+    font-size: 16px;
+    margin-bottom: 64px;
+}
+
+form {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+input[type="text"],
+input[type="email"] {
+    display: inline-block;
+    width: 48%;
+    padding: 13px;
+    border: none;
+    color: #fff;
+    font-family: 'open sans';
+    background: rgba(37, 37, 33, .7);
+    margin-bottom: 16px;
+    border-top: 5px solid rgba(37, 37, 33, .7);
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-top: 5px solid rgba(255, 255, 255, 0.7);
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 200px;
+    min-height: 200px;
+    background: rgba(37, 37, 33, .7);
+    padding: 13px;
+    border: none;
+    color: #fff;
+    font-family: 'open sans';
+    margin-bottom: 16px;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    padding: 13px;
+    border: none;
+    color: #fff;
+    background: rgba(37, 37, 33, .7);
+    width: 96px;
+    align-items: center;
+}
+
+/* footer */
+
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.contenido-footer{
+    text-align: center;
+}
+
+.contenido-footer h4{
+    color: #fff;
+    border-bottom: 3px solid #b81a1a;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.contenido-footer p{
+    color: #ccc;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:900px) {
+    .tarjeta {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:610px) {
+    header .textos {
+        margin-top: 130px;
+    }
+    header .titulo {
+        font-size: 75px;
+    }
+
+    .imagenes {
+        flex-grow: 1;
+    }
+    .tarjeta{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:380px) {
+    header .textos {
+        margin-top: 100px;
+    }
+    header .titulo {
+        font-size: 65px;
+    }
+    header .subtitulo {
+        font-size: 25px;
+        margin-bottom: 32px;
+    }
+}

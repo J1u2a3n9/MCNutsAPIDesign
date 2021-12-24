@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body 
+{
+    background-color:#f5f2df;
+}
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: auto;
+}
+
+.titulo {
+    color: #27a8bf;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+header {
+    width: 100%;
+    height: 600px;
+    background: #d51010;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(0, 91%, 40%, 0.459), hsla(0, 50%, 64%, 0.664)), url(../img/portada.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(0, 91%, 40%, 0.459), hsla(0, 50%, 64%, 0.664)), url(../img/portada.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color:#fff  !important;
+    font-weight: 600  !important;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 25px
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+header .texto-cabecera{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.texto-cabecera h1{
+    font-size: 90px;
+    color:#fff;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: brown  !important;
+    border-color: brown  !important;
+}
+
+.bg-info {
+    background-color: brown !important;
+}
+
+.texto-cabecera h2{
+    font-size: 80px;
+    font-weight: 300;
+    color:#fff;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.gallery{
+    background: #f5f2df;
+}
+
+.contenedor-galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.img-galeria{
+    width: 30%;
+    display: block;
+    margin-bottom: 15px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .6);
+    cursor: pointer;
+}
+
+.imagen-light{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.534);
+    transform: translate(100%);
+    transition: transform .2s ease-in-out;
+}
+
+.agregar-imagen{
+    width: 60%;
+    transform: scale(0);
+    border-radius: 10px;
+    transition: transform .3s .2s;
+}
+
+.showImage{
+    transform: scale(1);
+}
+
+.show{
+    transform: translate(0);
+}
+
+.close{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 40px;
+    cursor: pointer;
+}
+table thead{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    background-color:brown;
+    color:white;
+}
+
+
+/* footer */
+
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.contenido-footer{
+    text-align: center;
+}
+
+.contenido-footer h4{
+    color: #fff;
+    border-bottom: 3px solid  brown;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.contenido-footer p{
+    color: #ccc;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+
+
+
+.bg-info {
+    background-color:brown !important; 
+}
+
+.btn-primary {
+    color: #fff !important;
+    background-color: brown !important;
+    border-color: brown !important;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+    
+    .contenedor-servicio img{
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    
+   
+    .img-galeria{
+        width: 45%;
+    }
+    
+    .agregarImagen{
+        width: 80%;
+    }
+
+
+    
+
+    
+}
+
+
+@media screen and (max-width: 500px){
+    
+    .hamburguer{
+        top: 20px;
+        right: 20px;
+    }
+
+    
+    .img-galeria{
+        width: 95%;
+    }
+    
+    .agregar-imagen{
+        width: 90%;
+    }
+
+    .social-media{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+
+
+    
+}

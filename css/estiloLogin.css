@@ -1,0 +1,65 @@
+
+
+body {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 300;
+    color:rgb(255, 255, 255)
+}
+
+.text-light 
+{ 
+    color:rgb(255, 255, 255) !important; 
+}
+.bg-dark 
+{ 
+    background-color:rgba(14, 36, 11, 0.994) !important; 
+}
+
+.btn 
+{
+    min-height: 3.125rem;
+    font-weight: 600;
+}
+
+.form-control 
+{
+    min-height: 3.125rem;
+    line-height: initial;
+}
+
+
+.img-1 {
+    background-image: url('/img/carrusel/1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-2 {
+    background-image: url('/img/carrusel/2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-3 {
+    background-image: url('/img/carrusel/3.JPG');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-4 {
+    background-image: url('/img/carrusel/4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-5 {
+    background-image: url('/img/carrusel/5.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-6 {
+    background-image: url('/img/carrusel/6.jpg');
+    background-size: cover;
+    background-position: center;
+}
