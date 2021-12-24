@@ -14,7 +14,7 @@
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="https://github.com/DussanFreire" target="_blank">Author</a>
+  <a href="https://github.com/J1u2a3n9" target="_blank">Author</a>
 </p>
 
 <br>
@@ -30,6 +30,11 @@ MCNuts needs a website with which it can better manage its products so this webs
 
 ## 🖼 Features ##
 
+
+:heavy_check_mark: Form
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74753713/147305200-c8c6bc09-558d-411d-b7de-51d9e3bcaf6b.png" width="700" title="menu">
+</p>
 :heavy_check_mark: Menu Page
 <p align="center">
   <img src="https://user-images.githubusercontent.com/74753713/147305194-6ed4aeaa-ef5b-4b7d-9281-d7b21ecaeb2a.png" width="700" title="menu">
@@ -38,10 +43,7 @@ MCNuts needs a website with which it can better manage its products so this webs
 <p align="center">
   <img src="https://user-images.githubusercontent.com/74753713/147305197-40660a49-bbfd-499e-af1f-6857da0c76d7.png" width="700" title="menu">
 </p>
-:heavy_check_mark: Form
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74753713/147305200-c8c6bc09-558d-411d-b7de-51d9e3bcaf6b.png" width="700" title="menu">
-</p>
+
 
 
 
