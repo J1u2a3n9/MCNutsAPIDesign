@@ -19,7 +19,7 @@
 
 <br>
 
-## :dart: About ##
+## ❓ About ##
 
 MCNuts is a company that sells peanuts as snacks, which have many flavors.
 MCNuts needs a website with which it can better manage its products so this website was developed so that it consumes the backend api. 
@@ -28,7 +28,7 @@ MCNuts needs a website with which it can better manage its products so this webs
 <img source>
 
 
-## :sparkles: Features ##
+## 🖼 Features ##
 
 :heavy_check_mark: Menu Page
 <p align="center">
@@ -47,14 +47,15 @@ MCNuts needs a website with which it can better manage its products so this webs
 
 The following tools were used in this project:
 
-* CSS
-* JavaScript
+* 📕 HTML
+* 📘 CSS
+* 📒 JavaScript
 
-## :white_check_mark: Requirements ##
+## 🧠 Requirements ##
 
 Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
 
-## :checkered_flag: Starting ##
+## ✅ Starting ##
 
 ```bash
 # Clone this project
